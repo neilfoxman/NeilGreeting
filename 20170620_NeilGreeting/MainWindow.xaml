@@ -1,0 +1,14 @@
+﻿<Window x:Class="_20170620_NeilGreeting.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_20170620_NeilGreeting"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button x:Name="button" Content="I Know!" HorizontalAlignment="Left" Margin="151,236,0,0" VerticalAlignment="Top" Width="199" Click="button_Click" Height="59" FontSize="36" IsDefault="True"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="134,99,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="67" Width="233" FontSize="32"><Run Text="Neil "/><Run FontSize="36" Text="Loves "/><Run Text="You!"/></TextBlock>
+
+    </Grid>
+</Window>
